@@ -12,9 +12,9 @@
 <body>
     <div class="navbar-container">
         <nav>
-            <a href="#"><img src="assets/img/logo.png" alt="" class="logo"></a>
+            <a href="#"><img src="assets/img/logo.png" alt="" id="logo"></a>
             <ul class="navbar-itens">
-                <li><a href="#">HOME</a></li>
+                <li><a href="#home">HOME</a></li>
                 <li><a href="#planos">PLANOS</a></li>
                 <li><a href="#contato">CONTATO</a></li>
                 <li><a href="#" class="default-btn">LOGIN</a></li>
@@ -47,7 +47,7 @@
                 </li>
             </ul>
         </section>
-        <section class="planos-precos">
+        <section class="planos-precos container">
             <h1 id="planos">PLANOS & PREÇOS</h1>
             <p>Selecione o Plano Perfeito para Você.</p>
             <div class="plans-container">
@@ -103,9 +103,29 @@
                     </ul>
                 </div>
             </div>
-            <a href="#home"><i class="fa-solid fa-circle-up fa-3x"></i></a>
+            <a href="#logo"><i class="fa-solid fa-circle-up fa-3x"></i></a>
+        </section>
+        <section class="buscar-dominio">
+            <h2>BUSCAR UM DOMÍNIO</h2>
+            <p>Verifique se seu domínio está disponível.</p>
+            <form action="">
+                <input type="text" name="domain" placeholder="Digite aqui o dimínio desejado">
+                <input type="submit" value="Buscar Domínio">
+            </form>
+        </section>
+        <section class="contato-container">
+            <h2 id="contato">ENTRE EM CONTATO</h2>
+            <p>Entre em contato para conversarmos sobre a melhor hospedagem para seu negócio.</p>
+            <form action="">
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+                <textarea name="message" placeholder="Digite sua mensagem"></textarea>
+                <input type="submit" value="ENVIAR">
+            </form>
+            <a href="#logo"><i class="fa-solid fa-circle-up fa-3x"></i></a>
         </section>
     </main>
+    <footer> <p>CURSO CRIAÇÃO DE PÁGINA WEB - 2023</p></footer>
     <script src="https://kit.fontawesome.com/0c8c970009.js" crossorigin="anonymous"></script>
 </body>
 

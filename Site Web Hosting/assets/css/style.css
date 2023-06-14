@@ -15,7 +15,7 @@ body {
     padding: 0 2em;
 }
 
-.logo {
+#logo {
     width: 70px;
     height: 70px;
     margin-top: 5px;
@@ -73,26 +73,27 @@ nav {
     height: 600px;
 }
 
-.main-banner h1, .main-banner p{
+.main-banner h1,
+.main-banner p {
     color: #ffff;
     text-align: center;
 }
 
-.main-banner h1{
+.main-banner h1 {
     font-size: 64px;
     font-weight: 900;
 }
 
-.main-banner p{
+.main-banner p {
     font-size: 32px;
     color: #cacaca;
 }
 
-.especialidades-container{
+.especialidades-container {
     padding: 5em 0;
 }
 
-.especialidades-container ul{
+.especialidades-container ul {
     display: flex;
     width: 90%;
     position: relative;
@@ -101,72 +102,72 @@ nav {
     padding-left: 0;
 }
 
-.especialidades-container ul li{
+.especialidades-container ul li {
     flex: 1 1 200px;
     list-style: none;
     text-align: center;
     padding: 20px;
 }
 
-.fas{
+.fas {
     font-size: 60px;
     margin-bottom: 15px;
 }
 
-.fa-shield-halved{
+.fa-shield-halved {
     color: #1ED760;
 }
 
-.fa-rocket{
+.fa-rocket {
     color: #FFB00A;
 }
 
-.fa-comments{
+.fa-comments {
     color: #E21414;
 }
 
-.especialidades-container ul li h3{
+.especialidades-container ul li h3 {
     margin-bottom: 25px;
 }
 
-.seguranca{
+.seguranca {
     color: #1ED760;
 }
 
-.velocidade{
+.velocidade {
     color: #FFB00A;
 }
 
-.suporte{
+.suporte {
     color: #E21414;
 }
 
-.especialidades-container ul li p{
+.especialidades-container ul li p {
     line-height: 24px;
     color: #000;
 }
 
-.fa-circle-up{
+.fa-circle-up {
     color: #1ED760;
     align-items: center;
     padding: 50px;
 }
 
-.planos-precos{
+.planos-precos {
     padding-bottom: 5em;
     text-align: center;
 }
 
-.planos-precos h1{
+.planos-precos h1 {
     font-size: 36px;
     margin-top: 0;
 }
 
-.planos-precos p{
+.planos-precos p {
     font-size: 20px;
 }
 
-.plans-container{
+.plans-container {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
@@ -176,28 +177,28 @@ nav {
     margin-right: auto;
 }
 
-.plan{
+.plan {
     flex: 1 1 200px;
     max-width: 275px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.plan ul{
+.plan ul {
     padding: 0;
     border-radius: 15px;
 }
 
-.plan ul li{
+.plan ul li {
     list-style: none;
     height: 50px;
     line-height: 50px;
     background-color: #ffff;
     color: #333;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.plan .price{
+.plan .price {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -212,7 +213,7 @@ nav {
     margin-bottom: -50px;
 }
 
-.plan .plan-name{
+.plan .plan-name {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 900;
@@ -225,7 +226,7 @@ nav {
     border-top-right-radius: 15px;
 }
 
-.plan .plan-btn{
+.plan .plan-btn {
     background-color: #1ED760;
     color: #ffff;
     font-size: 24px;
@@ -236,6 +237,155 @@ nav {
     border-bottom-right-radius: 15px;
 }
 
-.plan .recomendado{
+.plan .recomendado {
     background-color: #E21414;
+}
+
+.buscar-dominio {
+    background-color: #000;
+    text-align: center;
+    padding: 5em;
+    color: #ffff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.buscar-dominio p {
+    color: #ffff;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.buscar-dominio input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.buscar-dominio input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.buscar-dominio input[type=submit] {
+    background-color: #1ED760;
+    color: #ffff;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 45px;
+}
+
+.contato-container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contato-container h2 {
+    font-size: 36px;
+}
+
+.contato-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contato-container input,
+.contato-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contato-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contato-container input[type=submit] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffff;
+    background-color: #1ED760;
+}
+
+footer {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+footer p {
+    color: #000;
+}
+
+@media screen and(max-width: 950px) {
+
+    .navbar-itens li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    html,
+    body {
+        overflow: hidden;
+    }
+
+    .plan {
+        max-width: 100%;
+    }
+
+    .buscar-dominio {
+        padding: 3em 2em;
+    }
+
+    .buscar-dominio input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contato-container {
+        padding: 3em 2em;
+    }
+
+    .contato-container input,
+    .contato-container textarea {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plans-container{
+        text-align: center;
+        margin-bottom: 2px;
+        margin-left: 30%;
+    }
+
+    .planos-precos{
+        text-align: center;
+        margin-left: 24%;
+    }
 }
